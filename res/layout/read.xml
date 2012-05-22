@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+	<ScrollView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:minWidth="200dp"
+	    android:id="@+id/bookScroll"
+	    android:padding="5dp"
+	    android:scrollbars="vertical" android:layout_marginBottom="54dp" android:background="@drawable/reader_bg">
+
+	    <TextView
+	        android:id="@+id/bookPageText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/read_text"/>
+	</ScrollView>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+        style="@android:style/ButtonBar"
+        android:layout_height="wrap_content" android:background="@drawable/footer_panel">
+
+        <Button
+            android:id="@+id/readBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@layout/button"
+            android:layout_alignParentLeft="true" android:drawableLeft="@drawable/left_arrow"/>
+
+        <TextView
+            android:id="@+id/readBookPages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/readNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@layout/button"
+            android:drawableLeft="@drawable/right_arrow"/>
+
+    </RelativeLayout>
+</RelativeLayout>

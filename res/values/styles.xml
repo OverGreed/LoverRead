@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/off_white</item>
+        <item name="android:cacheColorHint">@color/off_white</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:divider">@color/silver</item>
+        <item name="android:dividerHeight">1dip</item>
+    </style>
+</resources>

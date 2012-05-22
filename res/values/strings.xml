@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CategoriesActivity!</string>
+    <string name="app_name">Books</string>
+    <string name="app_version">Version:</string>
+    <string name="app_version_value">1.0</string>
+    <string name="app_autor">Autor:</string>
+    <string name="app_autor_value">Sergey Kuzminskiy</string>
+    <string name="app_description">Данное приложение созданно для получения быстрого доступа к книгам сайта loveread.ec. Имеется возможность сохранения книги для чтения в offline.</string>
+    <string name="updating">Updating&#8230;</string>
+    <string name="updating_categories">Getting categories list</string>
+    <string name="updating_category_books">Getting categories books</string>
+    <string name="updating_book_page">Loading book page&#8230;</string>
+    <string name="book_autor">Autor:</string>
+    <string name="book_series">Series:</string>
+    <string name="book_pages">Pages:</string>
+    <string name="book_language">Language:</string>
+    <string name="book_read">Read</string>
+    <string name="book_save">Save</string>
+    <string name="book_remove">Remove</string>
+    <string name="loading_next_page">Loading next page</string>
+    <string name="book_image_name">Book cover</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_list">List</string>
+    <string name="menu_saved">My Books</string>
+    <string name="menu_about">Help</string>
+    <string name="saving">Saving&#8230;</string>
+    <string name="saving_book">Saving book</string>
+    <string name="search_hint">Type search text here</string>
+    <string name="search_btn_description">Search</string>
+    <string name="saved">Saved</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_next">Next</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="search_result">Search books</string>
+    <string name="check_connection">Check connection</string>
+</resources>

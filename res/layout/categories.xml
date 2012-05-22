@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/categoriesList"
+        android:layout_width="fill_parent"
+		style="@style/ListView"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <RelativeLayout
+        android:id="@+id/categoriesNoConnect"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+        style="@android:style/ButtonBar"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/categoryReconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_connection"
+            android:layout_centerInParent="true" />
+	</RelativeLayout>
+</RelativeLayout>

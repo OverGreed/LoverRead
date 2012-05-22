@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.zp.center.book"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7" android:maxSdkVersion="14"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="ua.zp.center.book.activity.CategoriesActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.BooksActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.BookActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.ReadActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.SearchActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.SaveActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="ua.zp.center.book.activity.AboutActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.book.SaveActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

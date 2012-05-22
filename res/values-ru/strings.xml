@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CategoriesActivity!</string>
+    <string name="app_name">Books</string>
+    <string name="app_version">Версия:</string>
+    <string name="app_version_value">1.0</string>
+    <string name="app_autor">Автор:</string>
+    <string name="app_autor_value">Кузьминский Сергей</string>
+    <string name="app_description">Данное приложение созданно для получения быстрого доступа к книгам сайта loveread.ec. Имеется возможность сохранения книги для чтения в offline.</string>
+    <string name="updating">Обновление&#8230;</string>
+    <string name="updating_categories">Получение списка категорий</string>
+    <string name="updating_category_books">Получение книг категории</string>
+    <string name="updating_book_page">Получение страници&#8230;</string>
+    <string name="book_autor">Автор:</string>
+    <string name="book_series">Серия:</string>
+    <string name="book_pages">Страниц:</string>
+    <string name="book_language">Язык:</string>
+    <string name="book_read">Читать</string>
+    <string name="book_save">Добавить</string>
+    <string name="book_remove">Удалить</string>
+    <string name="loading_next_page">Загрузка следующей страници</string>
+    <string name="book_image_name">Обложка книги</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_list">Список</string>
+    <string name="menu_saved">Мои книги</string>
+    <string name="menu_about">Помощь</string>
+    <string name="saving">Сохранение&#8230;</string>
+    <string name="saving_book">Сохранение книги</string>
+    <string name="search_hint">Поиск&#8230;</string>
+    <string name="search_btn_description">Искать</string>
+    <string name="saved">Сохраненные</string>
+    <string name="btn_back">Туда</string>
+    <string name="btn_next">Сюда</string>
+    <string name="searching">Поиск&#8230;</string>
+    <string name="search_result">Поиск книг</string>
+    <string name="check_connection">Проверить подключение</string>
+</resources>

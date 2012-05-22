@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+ 		android:background="@drawable/header_panel"
+        style="@android:style/ButtonBar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/books"
+        android:layout_width="fill_parent"
+        style="@style/ListView"
+        android:layout_height="wrap_content" android:layout_marginTop="40dip">
+    </ListView>
+    <RelativeLayout
+        android:id="@+id/booksNoConnect"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+        style="@android:style/ButtonBar"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/booksReconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_connection"
+            android:layout_centerInParent="true" />
+	</RelativeLayout>
+</RelativeLayout>
